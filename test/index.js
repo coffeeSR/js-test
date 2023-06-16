@@ -18,3 +18,29 @@ console.log(c);
 // console.log(isBoss)
 
 //commits
+
+//Using 
+let x=1;
+const y=2;
+if (x==1){
+    console.log("x is 1")
+}
+
+// & operator
+if(x===1 && y===2){
+    console.log("&&operator tested");
+}
+
+//OR || operator
+if((x=1) || (y=3)) {
+    console.log("||operator tested");
+}
+
+if(x!=2){
+    console.log("!!!")
+}
+
+//NOT operator
+if(!x){
+    console.log("x is not true");
+}
