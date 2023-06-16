@@ -46,14 +46,35 @@ if(!x){
 }
 
 //ternary operator
-if(x===1){
-    console.log("x is 1")
-}
-else{
-    console.log("x is not 1")
-}
-let result = x === 1?"x is 1" : "x is not 1";
+// if(x===1){
+//     console.log("x is 1")
+// }
+// else{
+//     console.log("x is not 1")
+// }
+// let result = x === 1?"x is 1" : "x is not 1";
 
-for ( let i=0; i<5; i++){
-    console.log(i)
+// for ( let i=0; i<5; i++){
+//     console.log(i)
+// }
+
+//learning about functions
+// function add(a,b){
+//     // return a+b;
+//     console.log(a+b);
+// }
+
+// add(1,2);
+// add(4,5);
+
+//function in ES6 style / arrow function
+const add = (a,b) => {
+    console.log(a+b);
+}
+
+add(1,2)
+add(4,5)
+
+function area(a,b){
+    return a*b;
 }
