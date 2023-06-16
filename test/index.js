@@ -53,3 +53,7 @@ else{
     console.log("x is not 1")
 }
 let result = x === 1?"x is 1" : "x is not 1";
+
+for ( let i=0; i<5; i++){
+    console.log(i)
+}
