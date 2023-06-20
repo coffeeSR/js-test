@@ -104,9 +104,9 @@ console.log(arr.sort());
 console.log(arr.push("Hyundai"));
 console.log(arr.pop());
 
-const myFunction=(data)=>{
-    console.log(data);
-}
+// const myFunction=(data)=>{
+//     console.log(data);
+// }
 
 arr.map(d=> console.log(d));
 
@@ -129,3 +129,28 @@ console.log(other);
 
 const [first, ...other1]=arr;
 console.log(other1);
+
+// const myFunction=(data)=>{
+//     return data.toUpperCase();
+// };
+// const newUpperCase=other.map(myFunction)
+// console.log({newUpperCase});
+
+//JS GOOD PRACTICES
+//1. Avoid global variables
+//2. Always declare local variables
+//3. Declarations on top
+//4. Initialize variables
+//5. Declare objects with const
+//6. Declare arrays with const
+//7. Use === comparison
+//8. Use parameter defaults while using functions
+
+const myName=(salutation, name) =>{
+    if (salutation === "") {
+        salutation = salutation || "Mr";
+    }
+    console.log(`${salutation} ${name}`);
+};
+
+myName("","John");
