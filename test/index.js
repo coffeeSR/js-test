@@ -124,3 +124,8 @@ const user={
 const {password,phone, ...rest}=user;
 console.log({rest});
 
+const {x, ...other} ={x:1,y:2,z:3}
+console.log(other);
+
+const [first, ...other1]=arr;
+console.log(other1);
