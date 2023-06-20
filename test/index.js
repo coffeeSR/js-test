@@ -78,3 +78,18 @@ add(4,5)
 function area(a,b){
     return a*b;
 }
+
+//OBJECT
+const person ={
+    firstName: "Shakti", 
+    lastName: "Rajbhandari",
+    fullName: function (){
+        return `${this.firstName} ${this.lastName}`;
+    }
+};
+
+const p=person.fullName();
+console.log(p);
+
+//ARRAY
+// const cars = {"BMW","Mercedes","Nissan","Honda","Mazda"};
