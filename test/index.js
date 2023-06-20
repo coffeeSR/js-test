@@ -96,6 +96,16 @@ const arr =["BMW","Mercedes","Nissan","Honda","Mazda"];
 //access the first item
 const o=arr[0];
 //access the last item
-const e= arr[arr.length-1]
-console.log(o)
-console.log(e)
+const e= arr[arr.length-1];
+console.log(o);
+console.log(e);
+console.log(arr.length);
+console.log(arr.sort());
+console.log(arr.push("Hyundai"));
+console.log(arr.pop());
+
+const myFunction=(data)=>{
+    console.log(data);
+}
+
+arr.map(d=> console.log(d));
