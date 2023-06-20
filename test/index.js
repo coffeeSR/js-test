@@ -109,3 +109,18 @@ const myFunction=(data)=>{
 }
 
 arr.map(d=> console.log(d));
+
+//User Model
+const user={
+    firstName: "Shakti",
+    lastName: "Rajbhandari",
+    email: "shaktirajbhandari@gmail.com",
+    address: "Kumaripati",
+    phone: "9818594363",
+    password: "123456",
+};
+
+//User list
+const {password,phone, ...rest}=user;
+console.log({rest});
+
