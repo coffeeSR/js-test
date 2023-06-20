@@ -1,14 +1,14 @@
 // I am using var keyword
-var a="123";
-console.log(a); 
+// var a="123";
+// console.log(a); 
 
 //I am using let keyword
-let b='456';
-console.log(b);
+// let b='456';
+// console.log(b);
 
 //I am using const keyword
-const c=789;
-console.log(c);
+// const c=789;
+// console.log(c);
 
 // alert("HELLO WORLD!!!")
 // const age=prompt("How old are you?")
@@ -20,30 +20,30 @@ console.log(c);
 //commits
 
 //Using 
-let x=1;
-const y=2;
-if (x==1){
-    console.log("x is 1")
-}
+// let x=1;
+// const y=2;
+// if (x==1){
+//     console.log("x is 1")
+// }
 
-// & operator
-if(x===1 && y===2){
-    console.log("&&operator tested");
-}
+// // & operator
+// if(x===1 && y===2){
+//     console.log("&&operator tested");
+// }
 
 //OR || operator
-if((x=1) || (y=3)) {
-    console.log("||operator tested");
-}
+// if((x=1) || (y=3)) {
+//     console.log("||operator tested");
+// }
 
-if(x!=2){
-    console.log("!!!")
-}
+// if(x!=2){
+//     console.log("!!!")
+// }
 
 //NOT operator
-if(!x){
-    console.log("x is not true");
-}
+// if(!x){
+//     console.log("x is not true");
+// }
 
 //ternary operator
 // if(x===1){
@@ -68,28 +68,34 @@ if(!x){
 // add(4,5);
 
 //function in ES6 style / arrow function
-const add = (a,b) => {
-    console.log(a+b);
-}
+// const add = (a,b) => {
+//     console.log(a+b);
+// }
 
-add(1,2)
-add(4,5)
+// add(1,2)
+// add(4,5)
 
-function area(a,b){
-    return a*b;
-}
+// function area(a,b){
+//     return a*b;
+// }
 
 //OBJECT
-const person ={
-    firstName: "Shakti", 
-    lastName: "Rajbhandari",
-    fullName: function (){
-        return `${this.firstName} ${this.lastName}`;
-    }
-};
+// const person ={
+//     firstName: "Shakti", 
+//     lastName: "Rajbhandari",
+//     fullName: function (){
+//         return `${this.firstName} ${this.lastName}`;
+//     }
+// };
 
-const p=person.fullName();
-console.log(p);
+// const p=person.fullName();
+// console.log(p);
 
 //ARRAY
-// const cars = {"BMW","Mercedes","Nissan","Honda","Mazda"};
+const arr =["BMW","Mercedes","Nissan","Honda","Mazda"];
+//access the first item
+const o=arr[0];
+//access the last item
+const e= arr[arr.length-1]
+console.log(o)
+console.log(e)
