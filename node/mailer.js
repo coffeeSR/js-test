@@ -20,6 +20,10 @@ const transporter = nodemailer.createTransport({
 });
 
 const mailer= (mailOptions, transporter) => {
+
+// const mailer = async 
+//     const info = await transporter.sendMail(mailOptions);
+//     console.log({info: info.response})
     transporter.sendMail(mailOptions, (err, info) => {
         if(err) {
             console.log(err);
